@@ -1,6 +1,6 @@
 [
     {
-       "project_img": "./src/assets/random-password-generator.png",
+       "project_img": "/assets/random-password-generator.png",
        
        "title": "Random Password Generator",
        
@@ -11,7 +11,7 @@
     },
     
     {
-       "project_img": "./src/assets/weather-dashboard.png",
+       "project_img": "/assets/weather-dashboard.png",
        
        "title": "Weather Dashboard",
        
@@ -22,7 +22,7 @@
     },
     
     {
-       "project_img": "./src/assets/workday-scheduler.png",
+       "project_img": "/assets/workday-scheduler.png",
        
        "title": "Work Day Scheduler",
        
