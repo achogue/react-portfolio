@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#app-brand img {
+    height: 33px;
+    pointer-events: none;
+    margin: -3px 12px -2px 0;
+    padding: 0;
+}
+
+#app-brand h5 {
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+}
+
+.nav {
+    padding: 5px 0;
+}
+
+.navbar-light {
+    background-color: white;
+}
+
+.pen-area {
+    width: 14rem;
+}
+
+.hide-empty:empty {
+    display: none !important;
+}
+
+.fs-small {
+    font-size: 0.875rem;
+}
+
+.fs-smaller {
+    font-size: 0.75rem;
+}
+
+.fs-smallest {
+    font-size: 0.625rem;
+}
+
+.fs-bigger {
+    font-size: 1.125rem;
+}
+
+.rbt-menu > .dropdown-item {
+    font-size: 0.875rem;
+}
+
+.text-warning {
+    --bs-warning-rgb: 230, 148, 29;
+}
+
+.text-faded {
+    opacity: 0.4;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-move {
+    cursor: move;
+}
+
+.cursor-help {
+    cursor: help;
+}
+
+.help-btn {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    opacity: 0.3;
+}
+
+.bg-darken {
+    backdrop-filter: brightness(95%);
+}
+.bg-darker {
+    backdrop-filter: brightness(5%);
+}
+
+.help-btn:hover {
+    opacity: 1;
+}
+
+.flex-center-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    white-space: pre-line !important;
+}
+
+.text-adjust-break {
+    word-break: break-all;
+    line-break: anywhere;
+    overflow: hidden;
+    white-space: pre-line !important;
+}
+
+.text-vertical {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap !important;
+}
+
+.text-burned {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.btn svg,
+.icon {
+    margin-top: -2px;
+}
+
+button.btn-lnk {
+    margin-bottom: 4px;
+    font-size: 0.875rem;
+}
+
+button.btn-lnk:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn-smaller {
+    --bs-btn-padding-y: 0.2rem !important;
+    --bs-btn-padding-x: 0.5rem !important;
+    --bs-btn-font-size: 0.6875rem !important;
+}
+
+select.form-control {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+.rbt-close {
+    background-color: inherit;
+    border: none;
+    color: #999;
+}
+
+/* Resizables */
+
+.box-content {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.react-resizable-handle {
+    position: absolute;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: inherit;
+    border: 1px solid;
+    border-color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-resizable-handle-e,
+.react-resizable-handle-w {
+    cursor: ew-resize;
+    width: 14px;
+    height: calc(100% + 2px);
+    top: -1px;
+}
+
+.react-resizable-handle-n,
+.react-resizable-handle-s {
+    cursor: ns-resize;
+    width: calc(100% + 2px);
+    height: 14px;
+    left: -1px;
+}
+
+.react-resizable-handle-e::before,
+.react-resizable-handle-w::before,
+.react-resizable-handle-n::before,
+.react-resizable-handle-s::before {
+    color: inherit;
+    font-family: "Material Design Icons";
+    font-size: 0.75rem;
+    text-align: center;
+    display: block;
+    padding: 0;
+}
+
+.react-resizable-handle-e::before,
+.react-resizable-handle-w::before {
+    content: "\F0E74";
+}
+
+.react-resizable-handle-n::before,
+.react-resizable-handle-s::before {
+    content: "\F0E7A";
+}
+
+.react-resizable-handle-n::before {
+    margin-top: -2px;
+}
+
+.react-resizable-handle-s::before {
+    margin-bottom: -2px;
+}
+
+.react-resizable-handle-e {
+    right: -14px;
+    border-left: none;
+}
+
+.react-resizable-handle-w {
+    left: -14px;
+    border-right: none;
+}
+
+.react-resizable-handle-n {
+    top: -14px;
+    border-bottom: none;
+}
+
+.react-resizable-handle-s {
+    bottom: -14px;
+    border-top: none;
+}
+
+/* End: Resizables */
+
+/* Plugin Overrides */
+
+.Toastify__toast-body {
+    font-size: 0.875rem;
+    font-family: inherit;
+}
+
+.ql-container {
+    font-family: inherit !important;
+}
+
+/* End: Plugin Overrides */
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+code {
+    color: #e01a76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+table thead th.sortable {
+    cursor: pointer;
+}
+
+.page-number {
+    margin-right: 1.5em;
+    user-select: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (hover: hover) {
+    * > .react-resizable-handle {
+        visibility: hidden;
+    }
+
+    *:hover > .react-resizable-handle,
+    *:active > .react-resizable-handle {
+        visibility: visible;
+    }
+}

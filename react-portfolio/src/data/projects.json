@@ -1,0 +1,34 @@
+[
+    {
+       "project_img": "./src/assets/random-password-generator.png",
+       
+       "title": "Random Password Generator",
+       
+       "app_link": "https://achogue.github.io/Random-Password-Generator/",
+       
+       "github_link": "https://github.com/achogue/Random-Password-Generator"
+       
+    },
+    
+    {
+       "project_img": "./src/assets/weather-dashboard.png",
+       
+       "title": "Weather Dashboard",
+       
+       "app_link": "https://achogue.github.io/weather-dashboard/",
+       
+       "github_link": "https://github.com/achogue/weather-dashboard"
+       
+    },
+    
+    {
+       "project_img": "./src/assets/workday-scheduler.png",
+       
+       "title": "Work Day Scheduler",
+       
+       "app_link": "https://achogue.github.io/work-day-scheduler/",
+       
+       "github_link": "https://github.com/achogue/work-day-scheduler"
+       
+    }
+]
