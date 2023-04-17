@@ -1,4 +1,4 @@
-// Created Monday, March 13, 2023 5:19 PM by SliceImpl, all rights reserved. 
+
 import React from "react";
 
 const Welcome = props => {

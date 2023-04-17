@@ -1,4 +1,3 @@
-// Created Monday, March 13, 2023 5:19 PM by SliceImpl, all rights reserved. 
 import React, { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Welcome from "./welcome";
